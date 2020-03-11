@@ -1,0 +1,359 @@
+	.section	__TEXT,__text,regular,pure_instructions
+	.private_extern	__ZN3std2rt10lang_start17h9c54ff52ba06a7aaE
+	.globl	__ZN3std2rt10lang_start17h9c54ff52ba06a7aaE
+	.p2align	4, 0x90
+__ZN3std2rt10lang_start17h9c54ff52ba06a7aaE:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$32, %rsp
+	leaq	l___unnamed_1(%rip), %rax
+	movq	%rdi, -8(%rbp)
+	leaq	-8(%rbp), %rdi
+	movq	%rsi, -16(%rbp)
+	movq	%rax, %rsi
+	movq	-16(%rbp), %rax
+	movq	%rdx, -24(%rbp)
+	movq	%rax, %rdx
+	movq	-24(%rbp), %rcx
+	callq	__ZN3std2rt19lang_start_internal17he82d111f45e8971aE
+	movq	%rax, -32(%rbp)
+	movq	-32(%rbp), %rax
+	addq	$32, %rsp
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.p2align	4, 0x90
+__ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h87d0d77d82048f77E:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	callq	*(%rdi)
+	callq	__ZN54_$LT$$LP$$RP$$u20$as$u20$std..process..Termination$GT$6report17he0c954ee4388dbedE
+	movl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	addq	$16, %rsp
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.p2align	4, 0x90
+__ZN3std3sys4unix7process14process_common8ExitCode6as_i3217h0ba084167ad683a2E:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	movzbl	(%rdi), %eax
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.p2align	4, 0x90
+__ZN4core3fmt10ArgumentV13new17h57c9fe25c94a6e4dE:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$56, %rsp
+	movq	%rsi, -16(%rbp)
+	movq	-16(%rbp), %rsi
+	movq	%rdi, -40(%rbp)
+	movq	%rsi, -48(%rbp)
+	movq	-40(%rbp), %rax
+	movq	%rax, -8(%rbp)
+	movq	-8(%rbp), %rcx
+	movq	%rcx, -56(%rbp)
+	movq	-56(%rbp), %rax
+	movq	%rax, -32(%rbp)
+	movq	-48(%rbp), %rcx
+	movq	%rcx, -24(%rbp)
+	movq	-32(%rbp), %rax
+	movq	-24(%rbp), %rdx
+	addq	$56, %rsp
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.p2align	4, 0x90
+__ZN4core3fmt9Arguments6new_v117h0c3a599c5f091880E:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	movq	%rdi, %rax
+	movq	$0, -16(%rbp)
+	movq	%rsi, (%rdi)
+	movq	%rdx, 8(%rdi)
+	movq	-16(%rbp), %rdx
+	movq	-8(%rbp), %rsi
+	movq	%rdx, 16(%rdi)
+	movq	%rsi, 24(%rdi)
+	movq	%rcx, 32(%rdi)
+	movq	%r8, 40(%rdi)
+	addq	$16, %rsp
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.p2align	4, 0x90
+__ZN4core3ops8function6FnOnce9call_once17hb1c45433d542ac2eE:
+Lfunc_begin0:
+	.cfi_startproc
+	.cfi_personality 155, _rust_eh_personality
+	.cfi_lsda 16, Lexception0
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$48, %rsp
+	movq	%rdi, -32(%rbp)
+Ltmp0:
+	leaq	-32(%rbp), %rdi
+	callq	__ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h87d0d77d82048f77E
+Ltmp1:
+	movl	%eax, -36(%rbp)
+	jmp	LBB5_1
+LBB5_1:
+	jmp	LBB5_2
+LBB5_2:
+	movl	-36(%rbp), %eax
+	addq	$48, %rsp
+	popq	%rbp
+	retq
+LBB5_3:
+	jmp	LBB5_4
+LBB5_4:
+	movq	-16(%rbp), %rdi
+	callq	__Unwind_Resume
+	ud2
+LBB5_5:
+Ltmp2:
+	movl	%edx, %ecx
+	movq	%rax, -16(%rbp)
+	movl	%ecx, -8(%rbp)
+	jmp	LBB5_3
+Lfunc_end0:
+	.cfi_endproc
+	.section	__TEXT,__gcc_except_tab
+	.p2align	2
+GCC_except_table5:
+Lexception0:
+	.byte	255
+	.byte	255
+	.byte	1
+	.uleb128 Lcst_end0-Lcst_begin0
+Lcst_begin0:
+	.uleb128 Ltmp0-Lfunc_begin0
+	.uleb128 Ltmp1-Ltmp0
+	.uleb128 Ltmp2-Lfunc_begin0
+	.byte	0
+	.uleb128 Ltmp1-Lfunc_begin0
+	.uleb128 Lfunc_end0-Ltmp1
+	.byte	0
+	.byte	0
+Lcst_end0:
+	.p2align	2
+
+	.section	__TEXT,__text,regular,pure_instructions
+	.p2align	4, 0x90
+__ZN4core3ops8function6FnOnce9call_once32_$u7b$$u7b$vtable.shim$u7d$$u7d$17h03da00b3efe5e9abE:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	movq	(%rdi), %rdi
+	callq	__ZN4core3ops8function6FnOnce9call_once17hb1c45433d542ac2eE
+	movl	%eax, -12(%rbp)
+	movl	-12(%rbp), %eax
+	addq	$16, %rsp
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.p2align	4, 0x90
+__ZN4core3ptr18real_drop_in_place17h21ecf9b7fb9debcaE:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	pushq	%rax
+	movq	%rdi, -8(%rbp)
+	addq	$8, %rsp
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.p2align	4, 0x90
+__ZN54_$LT$$LP$$RP$$u20$as$u20$std..process..Termination$GT$6report17he0c954ee4388dbedE:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	xorl	%edi, %edi
+	callq	__ZN68_$LT$std..process..ExitCode$u20$as$u20$std..process..Termination$GT$6report17h20af4eb4e4ba69b7E
+	movl	%eax, -4(%rbp)
+	movl	-4(%rbp), %eax
+	addq	$16, %rsp
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.p2align	4, 0x90
+__ZN68_$LT$std..process..ExitCode$u20$as$u20$std..process..Termination$GT$6report17h20af4eb4e4ba69b7E:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	movb	%dil, %al
+	movb	%al, -1(%rbp)
+	leaq	-1(%rbp), %rdi
+	callq	__ZN3std3sys4unix7process14process_common8ExitCode6as_i3217h0ba084167ad683a2E
+	movl	%eax, -8(%rbp)
+	movl	-8(%rbp), %eax
+	addq	$16, %rsp
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.p2align	4, 0x90
+__ZN4main4main17hfe98083a4c87500fE:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$112, %rsp
+	movl	$1, %eax
+	addl	$10, %eax
+	seto	%cl
+	testb	$1, %cl
+	movl	%eax, -80(%rbp)
+	jne	LBB10_5
+	movq	__ZN4core3fmt3num3imp52_$LT$impl$u20$core..fmt..Display$u20$for$u20$i32$GT$3fmt17h7cfd559b69b04d32E@GOTPCREL(%rip), %rsi
+	movl	-80(%rbp), %eax
+	movl	%eax, -76(%rbp)
+	leaq	-76(%rbp), %rcx
+	movq	%rcx, -8(%rbp)
+	movq	-8(%rbp), %rdi
+	callq	__ZN4core3fmt10ArgumentV13new17h57c9fe25c94a6e4dE
+	movq	%rax, -88(%rbp)
+	movq	%rdx, -96(%rbp)
+	leaq	l___unnamed_2(%rip), %rax
+	movq	-88(%rbp), %rcx
+	movq	%rcx, -24(%rbp)
+	movq	-96(%rbp), %rdx
+	movq	%rdx, -16(%rbp)
+	leaq	-24(%rbp), %rsi
+	leaq	-72(%rbp), %rdi
+	movq	%rsi, -104(%rbp)
+	movq	%rax, %rsi
+	movl	$2, %edx
+	movq	-104(%rbp), %rcx
+	movl	$1, %r8d
+	callq	__ZN4core3fmt9Arguments6new_v117h0c3a599c5f091880E
+	leaq	-72(%rbp), %rdi
+	callq	__ZN3std2io5stdio6_print17h1ae77dfb25570ad5E
+	addq	$112, %rsp
+	popq	%rbp
+	retq
+LBB10_5:
+	leaq	l___unnamed_3(%rip), %rdi
+	callq	__ZN4core9panicking5panic17h74a8fc64d21637e4E
+	.cfi_endproc
+
+	.globl	_main
+	.p2align	4, 0x90
+_main:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset %rbp, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register %rbp
+	subq	$16, %rsp
+	movslq	%edi, %rax
+	leaq	__ZN4main4main17hfe98083a4c87500fE(%rip), %rdi
+	movq	%rsi, -8(%rbp)
+	movq	%rax, %rsi
+	movq	-8(%rbp), %rdx
+	callq	__ZN3std2rt10lang_start17h9c54ff52ba06a7aaE
+	movl	%eax, %ecx
+	movl	%ecx, %eax
+	addq	$16, %rsp
+	popq	%rbp
+	retq
+	.cfi_endproc
+
+	.section	__DATA,__const
+	.p2align	3
+l___unnamed_1:
+	.quad	__ZN4core3ptr18real_drop_in_place17h21ecf9b7fb9debcaE
+	.quad	8
+	.quad	8
+	.quad	__ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h87d0d77d82048f77E
+	.quad	__ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h87d0d77d82048f77E
+	.quad	__ZN4core3ops8function6FnOnce9call_once32_$u7b$$u7b$vtable.shim$u7d$$u7d$17h03da00b3efe5e9abE
+
+	.section	__TEXT,__const
+_str.0:
+	.ascii	"src/main.rs"
+
+	.p2align	4
+_str.1:
+	.ascii	"attempt to add with overflow"
+
+	.section	__DATA,__const
+	.p2align	3
+l___unnamed_3:
+	.quad	_str.1
+	.quad	28
+	.quad	_str.0
+	.quad	11
+	.long	6
+	.long	9
+
+	.section	__TEXT,__const
+l___unnamed_4:
+	.ascii	"y: "
+
+l___unnamed_5:
+	.byte	10
+
+	.section	__DATA,__const
+	.p2align	3
+l___unnamed_2:
+	.quad	l___unnamed_4
+	.asciz	"\003\000\000\000\000\000\000"
+	.quad	l___unnamed_5
+	.asciz	"\001\000\000\000\000\000\000"
+
+
+.subsections_via_symbols
